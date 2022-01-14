@@ -75,7 +75,7 @@ export default {
 }
 
 .popup_content {
-  background-color: white;
+  background-color: rgb(222, 222, 224);
   line-height: 50px;
   position: relative;
   z-index: 3;

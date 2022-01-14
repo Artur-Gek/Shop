@@ -7,7 +7,7 @@
         <div class="shop_product_up">
           <img
             class="shop_product_up"
-            src="@/assets/images/белаяфутболка.jpg"
+            src="@/assets/images/белаяфутболка.png"
           />
         </div>
         <div class="info_product">
@@ -36,15 +36,13 @@
       <div class="block_shop_product">
         <div class="shop_product_under">
           <router-link to="/cap"
-            ><img class="shop_product" src="@/assets/images/белаякружка.png" />
-            Кружка с логотипом</router-link
-          >
+            ><img class="shop_product" src="@/assets/images/штаны.png" /> Штаны
+          </router-link>
         </div>
         <div class="shop_product_under">
           <router-link to="/hat"
-            ><img class="shop_product" src="@/assets/images/белаяшапка.jpg" />
-            Шапка с логотипом</router-link
-          >
+            ><img class="shop_product" src="@/assets/images/шапка.png" /> Шапка
+          </router-link>
         </div>
       </div>
     </div>

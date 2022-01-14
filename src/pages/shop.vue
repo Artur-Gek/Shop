@@ -6,24 +6,24 @@
       <div class="block">
         <div class="shop_product">
           <router-link to="/cap"
-            ><img class="shop_product" src="@/assets/images/белаякружка.png" />
-            Кружка с логотипом</router-link
-          >
+            ><img class="shop_product" src="@/assets/images/штаны.png" />
+            Штаны
+          </router-link>
         </div>
         <div class="shop_product">
           <router-link to="/tshort"
             ><img
               class="shop_product"
-              src="@/assets/images/белаяфутболка.jpg"
+              src="@/assets/images/белаяфутболка.png"
             />
-            Футболка с логотипом</router-link
+            Футболка</router-link
           >
         </div>
         <div class="shop_product">
           <router-link to="/hat"
-            ><img class="shop_product" src="@/assets/images/белаяшапка.jpg" />
-            Шапка с логотипом</router-link
-          >
+            ><img class="shop_product prod3" src="@/assets/images/шапка.png" />
+            Шапка
+          </router-link>
         </div>
       </div>
     </div>
@@ -46,8 +46,12 @@ export default {
 </script>
 
 <style scoped>
+.prod3 {
+  padding: 50px 0 0 0;
+}
 .shop_product {
   text-align: center;
+  max-width: 400px;
 }
 .shop_product:hover {
   transform: translateY(-10px);

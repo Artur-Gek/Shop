@@ -4,7 +4,7 @@
     <div class="container">
       <div class="block">
         <div class="shop_product_under">
-          <img class="shop_product_up" src="@/assets/images/белаякружка.png" />
+          <img class="shop_product_up" src="@/assets/images/штаны.png" />
         </div>
         <div class="info_product">
           <h3>1000 RUB</h3>
@@ -32,17 +32,16 @@
       <div class="block_shop_product">
         <div class="shop_product_under">
           <router-link to="/hat"
-            ><img class="shop_product" src="@/assets/images/белаяшапка.jpg" />
-            Шапка с логотипом</router-link
-          >
+            ><img class="shop_product" src="@/assets/images/шапка.png" /> Шапка
+          </router-link>
         </div>
         <div class="shop_product_under">
           <router-link to="/tshort"
             ><img
               class="shop_product"
-              src="@/assets/images/белаяфутболка.jpg"
+              src="@/assets/images/белаяфутболка.png"
             />
-            Футболка с логотипом</router-link
+            Футболка</router-link
           >
         </div>
       </div>

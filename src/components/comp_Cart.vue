@@ -23,17 +23,17 @@
                       <img
                         v-if="item.imgN == 'cap'"
                         class="cartimg"
-                        src="@/assets/images/белаякружка.png"
+                        src="@/assets/images/штаны.png"
                       />
                       <img
                         v-else-if="item.imgN == 'hat'"
                         class="cartimg"
-                        src="@/assets/images/белаяшапка.jpg"
+                        src="@/assets/images/шапка.png"
                       />
                       <img
                         v-else-if="item.imgN == 't - short'"
                         class="cartimg"
-                        src="@/assets/images/белаяфутболка.jpg"
+                        src="@/assets/images/белаяфутболка.png"
                       />
                     </div>
                     <div class="inf_towar">
@@ -188,7 +188,7 @@ export default {
   margin-top: 80px;
 }
 .popup_content {
-  background-color: white;
+  background-color: rgb(222, 222, 224);
   padding-top: 20px;
   position: relative;
   z-index: 3;

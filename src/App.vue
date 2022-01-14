@@ -14,6 +14,15 @@ export default {
 
 
 <style>
+a {
+  color: black;
+}
+a:hover {
+  color: rgb(104, 159, 226);
+}
+.app {
+  background-color: rgb(222, 222, 224);
+}
 body.modal-open {
   overflow: hidden;
 }

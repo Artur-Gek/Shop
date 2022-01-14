@@ -56,9 +56,19 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
+a {
+  color: white;
+}
+a:hover {
+  color: lightsteelblue;
+}
+
 .router-link {
-  color: black;
+  color: white;
+}
+.router-link:hover {
+  color: lightsteelblue;
 }
 .shopButton {
   background: none;
@@ -66,6 +76,7 @@ export default {
   font-size: 20px;
 }
 .shopButton:hover {
+  color: lightsteelblue;
   transform: translateY(-2px);
   background: none;
   border: none;
@@ -76,10 +87,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: pink;
+  background-color: rgb(0, 0, 0);
 }
 .header_menu {
   margin: 15px;
+  color: white;
 }
 .logo {
   margin: 15px;
@@ -92,17 +104,11 @@ header {
   border: none;
   font-size: 20px;
   cursor: pointer;
+  color: white;
 }
 .imgCart {
   width: 30px;
   margin-top: 10px;
-}
-.cartButton:hover {
-  transform: translateY(-2px);
-  background: none;
-  border: none;
-  font-size: 20px;
-  cursor: pointer;
 }
 .cartButton:hover {
   transform: translateY(-2px);
